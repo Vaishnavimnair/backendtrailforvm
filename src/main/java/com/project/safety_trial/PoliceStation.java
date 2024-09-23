@@ -15,4 +15,9 @@ public class PoliceStation {
     private double latitude;
     private double longitude;
     // Constructor, getters, and setters
+    public PoliceStation(String name, double latitude, double longitude) {
+        this.name = name;
+        this.latitude = latitude;
+        this.longitude = longitude;
+    }
 }
